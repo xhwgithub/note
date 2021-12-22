@@ -6,7 +6,7 @@ modified: '2021-12-21T06:27:58.493Z'
 ---
 # JVM
 
-![avatar](../attachments/7c3e60fafb18bfeb4535952597d4df2.jpg)
+![avatar](../../attachments/7c3e60fafb18bfeb4535952597d4df2.jpg)
 
 
 ### 🔥堆 

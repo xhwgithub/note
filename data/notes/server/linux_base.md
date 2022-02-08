@@ -110,7 +110,14 @@
   使用program-text作为源代码，可与-f命令混用。
   -W version or --version
   打印bug报告信息的版本。
-  ```
+  ```  
+
+# 进程
+
+* 查询进程并KILL
+
+> ps -ef | grep appname | awk '{print $2}' | xargs kill -9
+
 
 
 

@@ -19,4 +19,5 @@
 
 * 测试（master服务器）
 
-  > ssh slave
+  > ssh slave  
+  > https://www.cnblogs.com/dcpeng/archive/2020/07/06/13254754.html

@@ -3,6 +3,7 @@
 * 1、先在所有服务器(master,slave1,slave2)上执行命令：
 
   > ssh-keygen -t dsa -P '' -f ~/.ssh/id_dsa
+  
 * 2、而后在所有服务器上执行命令：
 
   > cat ~/.ssh/id_dsa.pub >>~/.ssh/authorized_keys

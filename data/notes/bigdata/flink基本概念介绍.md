@@ -203,6 +203,12 @@ object StreamingDemoFromCollectionSource {
   > FsStateBackend   
   > 支持大状态长窗口的大数据存储，但是还是会保存一份在 TaskManager 的 Memory 中，所以状态的大小不能超过 TaskManager 的内存
 
+* 表连接器
+
+  > https://nightlies.apache.org/flink/flink-docs-release-1.14/zh/docs/connectors/table/formats/overview/
+
+    ![img_1.png](img_1.png)
+
 * 部署方式
 
   > flink的yarn模式部署也分为两种方式，一种是yarn-session，一种是yarn-per-job     

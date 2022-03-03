@@ -10,9 +10,9 @@
 
   > MapReduce计算模型的整个过程经历四个阶段：分割、映射、变换和还原
 
-  ![img_2.png](img_2.png)  
+  ![img_2.png](hadoop%20mapreduce.png)  
   __工作流__  
-  ![img_3.png](img_3.png)
+  ![img_3.png](../../attachments/bidata/map-reduce.png)
 
 
 

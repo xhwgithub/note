@@ -32,10 +32,25 @@
 * 数据类型
   ![img.png](../../attachments/bidata/数据类型.png)
 
-* 连接器
-*
+* TABLE API连接器
+
     * JDBC
-      ![img.png](img.png)
+      ![img.png](../../attachments/bidata/flinkjdbc驱动.png)
+
+    * UPSERT-KAFKA
+      > https://blog.csdn.net/u010834071/article/details/113057879
+    * KAFKA
+    * HBASE
+    * ELASTIC_SEARCH
+    * HIVE
+
+* DataStream 连接器
+    * JDBC
+    * KAFKA
+    * CASSANDRA
+    * ELASTIC_SEARCH
+    * FILE_SYSTEM
+    * RABBITMQ
 
 * 批处理 DataSet
   > 使用env.fromElements()，这种方式也支持Tuple，自定义对象等复合形式。
@@ -91,7 +106,8 @@
       ds16.print()
       //17.用fromElements创建DataSet val ds17: DataSet[Long] = env.generateSequence(1, 9)
       ds17.print()
-      } }
+      } 
+    }
     
 ```
 
@@ -187,7 +203,6 @@ object StreamingDemoFromCollectionSource {
   > Akka (sink)  
   > Netty (source)
 
->
 
 * checkpoint: Flink 自动周期生成，用于用户程序出故障时，使其重置回到正确的状态，主要需做两件事
 
@@ -207,11 +222,11 @@ object StreamingDemoFromCollectionSource {
 
   > https://nightlies.apache.org/flink/flink-docs-release-1.14/zh/docs/connectors/table/formats/overview/
 
-    ![img_1.png](img_1.png)
+  ![img_1.png](../../attachments/bidata/flink格式化工具.png)
 
 * 部署方式
 
-  > flink的yarn模式部署也分为两种方式，一种是yarn-session，一种是yarn-per-job     
+  > flink的yarn模式部署也分为两种方式，一种是yarn-session，一种是yarn-per-job       
   ![img_3.png](../../attachments/bidata/img_3.png)
 
 >

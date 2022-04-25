@@ -45,6 +45,13 @@ complex128      64 位实数和虚数
 
 * 设置代理：go env -w GOPROXY=https://goproxy.cn
 
-> 
+### 指针
+
+```
+    实例a的指针为b
+    &a = b
+    *b = a
+```
+
 
 
